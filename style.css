@@ -1,0 +1,166 @@
+/*
+body, table, tr, td {
+    background-color:#000000;
+    color: #FFFFFF;
+    font-family: monospace, courier;
+    font-size: 12px;
+}
+*/
+
+html,body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #FFFFFF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	
+	margin:0;	
+	padding:0;
+	height:100%;
+	border:none
+}
+
+.input {
+    f-ont-family:courier;
+    f-ont-size:12px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+.input-long {
+    width: 500px;
+    font-family:courier;
+    font-size:12px;
+}
+
+.input-submit {
+    font-family:courier;
+    font-size:12px;
+}
+
+.textarea {
+	width: 500px;
+	height: 150px;
+    font-family:courier;
+    font-size:12px;
+	b-order: 3px solid #cccccc;
+	p-adding: 5px;
+	f-ont-family: Tahoma, sans-serif;
+	b-ackground-image: url(bg.gif);
+	b-ackground-position: bottom right;
+	b-ackground-repeat: no-repeat;
+}
+
+a {color: white;}
+
+.menu {
+    font-family: monospace, courier;
+    font-size: 12px;
+    f-loat: left;
+    display:inline;
+}
+
+.general {
+    font-family: monospace, courier;
+    font-size: 12px;
+}
+
+.menu a {color: white;}
+.m-enu a:link {color:#FF0000;}      /* unvisited link */
+.m-enu a:visited {color:#00FF00;}  /* visited link */
+.m-enu a:hover {color:#FF00FF;}  /* mouse over link */
+.m-enu a:active {color:#0000FF;}  /* selected link */ 
+
+.table-bk {
+	background-color: #DDD;
+	width:100%;
+	height:100%;
+}
+
+.table-bk-structure {
+	background-color: #FFF;
+	width:1200px;
+	height:100%;
+}
+
+.table-bk-content {
+	background-color: #FFF;
+	w-idth:1200px;
+	h-eight:100%;
+    vertical-align:top;
+    padding:10px;
+    padding-top:20px;
+}
+
+/* Content Table */
+.menu_back {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #DDD;
+	background: #F7F7F7; /* for non-css3 browsers */
+	h-eight:120px;
+	vertical-align:top;
+	padding:0px;
+    padding-left:20px;
+    
+    height:10px;
+    
+	/* FIX BORDER (gradient thing) */
+	/*
+	position: relative; 
+	z-index: -1; 
+	*/
+}
+
+/* Table Sub*/
+
+.table_title {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #444444; 
+	font-weight: bold; 
+	font-size: 10px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-width:1px;
+	border-bottom-color: #A6A6A6;
+	
+	background: #999; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#C0C0C0', endColorstr='#D1D1D1'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#C0C0C0), to(#D1D1D1)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #C0C0C0,  #D1D1D1); /* for firefox 3.6+ */ 
+}
+.table_title_sub {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #444444;
+	f-ont-weight: bold; 
+	font-size: 9px;
+	b-order-bottom-width: thin;
+	b-order-bottom-style: solid;
+	b-order-width:1px;
+	b-order-bottom-color: #A6A6A6;
+	
+	background: #999; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#D1D1D1', endColorstr='#D1D1D1'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#D1D1D1), to(#D1D1D1)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #D1D1D1,  #D1D1D1); /* for firefox 3.6+ */
+	text-align:left;
+}
+.table-cell-1 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-color: #DEDEDE;
+}
+
+.table-cell-1 a {color: #222;}
+
+.titles {
+	font-size: 12px;
+	color: #336666;
+	font-weight: bold;
+}
