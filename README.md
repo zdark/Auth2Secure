@@ -5,6 +5,6 @@ Auth2Secure provides a base schema for authentication, security and audit.
 
 Auth2Secure is based on Auth2DB authentication and security modules.
 
-v0.1
+v1.0
 ---------------
 init
